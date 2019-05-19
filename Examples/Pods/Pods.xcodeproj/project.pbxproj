@@ -14,7 +14,6 @@
 		3D54CF1A9328DB21AEBC33327D24323B /* MessageViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC03F316BB300A92AD22467A6090EE2 /* MessageViewDelegate.swift */; };
 		4964CF460A9106F4CC3326DC1AC4FADF /* Pods-Examples-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 088CE4DEBD5AFD36D1D4293911018293 /* Pods-Examples-dummy.m */; };
 		54853A47A5A7C51DC067E3675999DF84 /* UIButton+BottomHeightOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD18FB3BCDBF1DFD605F238A0DF8A011 /* UIButton+BottomHeightOffset.swift */; };
-		6D105A31EE3E1A2E00CC3C7DEE97586F /* DictionaryString+NSAttributedStringKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C1658B3CC330B56AAF47C89215029 /* DictionaryString+NSAttributedStringKey.swift */; };
 		73C870853BB24CABA72B44F8C0CDD064 /* UIView+iOS11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417EEDF4CFDDCBCB7786624A0AA246B5 /* UIView+iOS11.swift */; };
 		766277EC5A17F4BB02642F41EB35F17E /* UITextView+Prefixes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4690E054D3E0C4BD09AD61E8AF5D122 /* UITextView+Prefixes.swift */; };
 		7EA660BEC690591728FF7D1B8AE3D34C /* MessageAutocompleteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8269F2CB2C70C0B49DBB389F60D1C45 /* MessageAutocompleteController.swift */; };
@@ -42,7 +41,6 @@
 /* Begin PBXFileReference section */
 		00EC05E5FBDAB99BD7D48B7DDDDDCD5F /* MessageViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MessageViewController-prefix.pch"; sourceTree = "<group>"; };
 		088CE4DEBD5AFD36D1D4293911018293 /* Pods-Examples-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Examples-dummy.m"; sourceTree = "<group>"; };
-		0B0C1658B3CC330B56AAF47C89215029 /* DictionaryString+NSAttributedStringKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DictionaryString+NSAttributedStringKey.swift"; path = "MessageViewController/DictionaryString+NSAttributedStringKey.swift"; sourceTree = "<group>"; };
 		0E85C4F4BE728F6D81B641C896B26881 /* Pods-Examples-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Examples-acknowledgements.markdown"; sourceTree = "<group>"; };
 		23DDC2117ADBDBEA3983436B4D327BF7 /* Pods-Examples.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Examples.modulemap"; sourceTree = "<group>"; };
 		25D24A4923125F0787F9AC31237C307D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -188,7 +186,6 @@
 		E9105E7DAD745D22C8C3F76965B34180 /* MessageViewController */ = {
 			isa = PBXGroup;
 			children = (
-				0B0C1658B3CC330B56AAF47C89215029 /* DictionaryString+NSAttributedStringKey.swift */,
 				3B37B36F0CE62B92C947DC0F37C30CC6 /* ExpandedHitTestButton.swift */,
 				D8269F2CB2C70C0B49DBB389F60D1C45 /* MessageAutocompleteController.swift */,
 				DD77369DF6D5874D8811208B1D865F42 /* MessageTextView.swift */,
@@ -333,7 +330,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D105A31EE3E1A2E00CC3C7DEE97586F /* DictionaryString+NSAttributedStringKey.swift in Sources */,
 				3C6497108502C23448EB83E8ACF27F11 /* ExpandedHitTestButton.swift in Sources */,
 				7EA660BEC690591728FF7D1B8AE3D34C /* MessageAutocompleteController.swift in Sources */,
 				E52BAD9E8BBA9251CC739E3A80CBE26B /* MessageTextView.swift in Sources */,
